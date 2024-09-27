@@ -24,7 +24,7 @@ ul li {
 
 .header {
     width: 100%;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(27, 27, 27);
     padding: 5px 0;
     z-index: 10000;
 }
@@ -66,7 +66,8 @@ ul li {
 /*Main*/
 
 .main {
-    background: rgb(0, 104, 190);
+    /*background: rgb(0, 104, 190);*/
+    background: rgb(224, 224, 224);
 }
 
 .main-content {
@@ -80,11 +81,12 @@ ul li {
 }
 
 .main-content h2 {
-    color: white;
+    /*color: white;*/
+    color: rgb(24, 24, 24);
 }
 
 .main-titulo {
-    font-size: 60px;
+    font-size: 65px;
     font-weight: bold;
 }
 
@@ -98,9 +100,9 @@ ul li {
     max-width: 100px;
     font-size: 20px;
     padding: 20px;
-    border: 1.5px solid white;
+    border: 1.5px solid rgb(24, 24, 24);
     border-radius: 5px;
-    color: white;
+    color: black;
     transition: 0.25s ease-in-out;
     font-weight: 300;
     /*text-transform: uppercase;*/
@@ -109,8 +111,10 @@ ul li {
 }
 
 .info-btn:hover {
-    background: white;
-    color: black;
+    /*background: white;*/
+    background: rgb(24, 24, 24);
+    /*color: black;*/
+    color: white;
 }
 
 /*Footer*/
@@ -131,7 +135,8 @@ footer p {
 
 .main-info {
     display: flex;
-    background: rgb(0, 112, 129);
+    /*background: rgb(0, 112, 129);*/
+    background: rgb(224, 224, 224);
 }
 
 .main-info-content {
@@ -145,14 +150,22 @@ footer p {
 
 .main-info h2 {
     font-size: 50px;
-    color: rgb(234, 234, 234);
+    /*color: rgb(234, 234, 234);*/
+    color: black;
     text-transform: uppercase;
     font-weight: 200;
     font-family: Impact;
 }
 
 .main-info p {
-    color: rgba(255, 255, 255, 0.85);
+    /*color: rgba(255, 255, 255, 0.85);*/
+    color: black;
     font-size: 22.5px;
     font-weight: 300;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 81, 255);
 }
